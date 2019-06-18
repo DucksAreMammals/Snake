@@ -9,9 +9,9 @@ function changeDirection(newDir) {
 		switch (newDir) {
 			case "U":
 				if (direction !== "D" && direction !== "U") {
-          direction = newDir;
-          alreadyMoved = true;
-        }
+				  direction = newDir;
+				  alreadyMoved = true;
+				}
 				break;
 			case "D":
 				if (direction !== "U" && direction !== "D") {
@@ -96,7 +96,7 @@ function game(){
 
 	var score = 0;
 
-	var gameLoopIntervalId = setInterval(gameLoop, 50);
+	var gameLoopIntervalId = setInterval(gameLoop, 100);
 
 	function gameLoop() {
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
