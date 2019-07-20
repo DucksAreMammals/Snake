@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head profile="http://www.w3.org/2005/10/profile">
-      <link rel="icon" type="image/ico" href="https://cdn.glitch.com/ade444da-d929-47aa-be0d-e0a8c47a5e7c%2Ffavicon.ico?v=1560715985264">
-      <title>Bernerdo Snake</title>
-      <link href="style.css" rel="stylesheet" type="text/css">
-      <script src="script.js"></script>
-	</head>
-	<body>
-		<div id="gameContainer">
-      <canvas id="testCanvas" height="600" width="600">Your browser does not support HTML canvas</canvas>
-    </div>
-		<div id="instructions">
-			<ul><h2>Instructions</h2><br>
-				<li>You are the green snake</li>
-				<li>Use the arrow keys to move</li>
-				<li>Don't run into yourself</li>
-				<li>Eat the apples</li>
-        <li>Press the spacebar to restart</li>
-				<li>Have fun</li>
-			</ul>
-		</div>
-	</body>
+
+<head profile="http://www.w3.org/2005/10/profile">
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <title>Bernerdo Snake</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="js/js.cookie.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div id="gameContainer">
+    <canvas id="testCanvas" height="600" width="600">Your browser does not support HTML canvas</canvas>
+  </div>
+  <div id="instructions">
+    <ul>
+      <h2>Instructions</h2>
+      <br>
+      <li>You are the green snake</li>
+      <li>Use the arrow keys to move</li>
+      <li>Don't run into yourself</li>
+      <li>Eat the apples</li>
+      <li>Press the spacebar to restart</li>
+      <li>Have fun</li>
+    </ul>
+  </div>
+  <div>
+    <span>Highscore:&nbsp;</span><span id="highscore"></span>
+  </div>
+</body>
+
 </html>
